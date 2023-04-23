@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio of Ofentse Rampa</title>
+    <link rel="stylesheet" href="tailwind.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+
+</head>
+<body class="bg-body text-white font-poppins pb-12">
+    
+    <header class="py-6">
+        <div class="container flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
+            <div class="text-lg font-bold">Ofentse Rampa</div>
+            <div class="hidden md:flex space-x-12 items-center">
+                <a href="#" class="text-selected-text">Home</a>
+                <a href="#projects">Projects</a>
+                <a href="#skills">Skills</a>
+                <a href="#contact"><button class="px-6 py-2 bg-theme font-bold rounded-md">Contact me</button></a>
+            </div>
+            <div class="md:hidden">
+                <svg width="26" height="18" viewBox="0 0 26 18" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M13 17.5H0.25V14.6667H13V17.5ZM25.75 10.4167H0.25V7.58333H25.75V10.4167ZM25.75 3.33333H13V0.5H25.75V3.33333Z" fill="white"/></svg>
+            </div>
+        </div>
+    </header>
+
+	<!--Navigation Bar-->
+    <div class="container mt-16 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
+        <div class="flex flex-wrap md:flex-nowrap">
+
+            <nav class="inline-block lg:mr-24 lg:w-4 fixed left-percentage hidden xl:block">
+                <div class="absolute left-50 transform -translate-x-1/2 space-y-6 mt-36">
+                    <a href="#" class="nav-dot selected-circle block w-7 h-7 rounded-full border-4 border-nav bg-body">
+						<span class="bg-black px-2 py-1 rounded-md ml-10 opacity-0">Home</span>
+                    </a>
+                    <a href="#projects" class="nav-dot block w-7 h-7 rounded-full border-4 border-nav bg-body">
+                        <span class="bg-black px-2 py-1 rounded-md ml-10 opacity-0">Projects</span>
+                    </a>
+                    <a href="#skills" class="nav-dot block w-7 h-7 rounded-full border-4 border-nav bg-body">
+                        <span class="bg-black px-2 py-1 rounded-md ml-10 opacity-0">Skills</span>
+                    </a>
+                    <a href="#contact" class="nav-dot block w-7 h-7 rounded-full border-4 border-nav bg-body">
+                        <span class="bg-black px-2 py-1 rounded-md ml-10 opacity-0">Contact</span>
+                    </a>
+                </div>
+            </nav>
+
+            <div class="flex flex-wrap lg:ml-20 justify-center md:justify-start max-w-xl mt-0 md:my-36">
+                <h1 class="font-bold text-5xl md:text-6xl lg:text-7xl text-center md:text-left">Constructing beautiful responsive, web experiences.</h1>
+                <div class="w-full flex justify-center md:justify-start"><a href="#projects">
+                    <button class="px-8 py-4 bg-theme text-white font-bold mt-12 flex items-center space-x-3 rounded-md">
+                        <div>
+                            <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M14.4375 11C14.4375 11.9117 14.0753 12.786 13.4307 13.4307C12.786 14.0753 11.9117 14.4375 11 14.4375C10.0883 14.4375 9.21398 14.0753 8.56932 13.4307C7.92466 12.786 7.5625 11.9117 7.5625 11C7.5625 10.0883 7.92466 9.21398 8.56932 8.56932C9.21398 7.92466 10.0883 7.5625 11 7.5625C11.9117 7.5625 12.786 7.92466 13.4307 8.56932C14.0753 9.21398 14.4375 10.0883 14.4375 11Z" fill="white"/>
+                                <path d="M0 11C0 11 4.125 3.4375 11 3.4375C17.875 3.4375 22 11 22 11C22 11 17.875 18.5625 11 18.5625C4.125 18.5625 0 11 0 11ZM11 15.8125C12.2764 15.8125 13.5004 15.3055 14.403 14.403C15.3055 13.5004 15.8125 12.2764 15.8125 11C15.8125 9.72365 15.3055 8.49957 14.403 7.59705C13.5004 6.69453 12.2764 6.1875 11 6.1875C9.72365 6.1875 8.49957 6.69453 7.59705 7.59705C6.69453 8.49957 6.1875 9.72365 6.1875 11C6.1875 12.2764 6.69453 13.5004 7.59705 14.403C8.49957 15.3055 9.72365 15.8125 11 15.8125Z" fill="white"/>
+                            </svg>								
+                        </div>
+                        <span>My projects</span></a>
+                    </button>
+                </div>
+            </div>
+            <img src="img/man.png" alt="Man" class="w-3/4 mt-12 md:absolute -mt-6 md:mt-0 right-0 -z-1">
+        </div>
+    </div>
+
+		<!-- My Projects -->
+		<div class="container mt-64 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
+			<section class="w-full">
+				<h2 id="projects" class="secondary-title">My Projects</h2>
+				<p class="section-paragraph">These are some of the projects that showcase my skills in web development technologies.</p>
+
+				<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-6 h-auto lg:h-auto">
+					<a href="#" target="">
+					<img src="https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fHBlcnNvbmFsJTIwcG9ydGZvbGlvfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" class="w-full bg-nav h:32 sm:h-48 rounded-md object-cover"><span class="text-lg text-white font-bold">Product landing page</span><p class="section-paragraph">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p><p class="text-selected-text font-poppins py-4">View project</p></a>
+					<a href="#" target="">
+					<img src="https://images.unsplash.com/photo-1488190211105-8b0e65b80b4e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fHBlcnNvbmFsJTIwcG9ydGZvbGlvfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" class="w-full bg-nav h:32 sm:h-48 rounded-md object-cover"><span class="text-lg text-white font-bold">Product landing page</span><p class="section-paragraph">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p><p class="text-selected-text font-poppins py-4">View project</p></a>
+					<a href="#" target="">
+					<img src="https://images.unsplash.com/photo-1586717791821-3f44a563fa4c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1470&q=80" class="w-full md:block bg-nav h:32 sm:h-48 rounded-md object-cover"><span class="text-lg text-white font-bold">Product landing page</span><p class="section-paragraph">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p><p class="text-selected-text font-poppins py-4">View project</p></a>
+				</div>
+			</section>
+		</div>
+
+		<!--Experience-->
+		<div class="container mt-64 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
+			<section class="w-full">
+			<h2 id="skills" class="secondary-title">Skills</h2>
+			<p class="section-paragraph">These are the technologies I have worked with.</p>
+		<div class="mt-8">
+			<div class="grid grid-cols-1 md:grid-cols-3 gap-6 mt-6">
+			<img src="img/HTML.png" alt="HTML" class="w-full bg-body h:32 sm:h-48 object-cover">
+			<img src="img/CSS.png" alt="CSS" class="w-full bg-body h:32 sm:h-48 object-cover">
+			<img src="img/JS.png" alt="JavaScript" class="w-full bg-body h:32 sm:h-48 object-cover">
+			<img src="img/React.png" alt="React" class="w-full bg-body h:32 sm:h-48 object-cover">
+			<img src="img/Tailwind.png" alt="Tailwind" class="w-full bg-body h:32 sm:h-48 object-cover">
+			<ion-icon name="logo-github" alt="GitHub" class="w-full bg-body h-auto lg:h-auto object-cover"></ion-icon>
+			</div>
+		</div>
+		</section>
+		</div>
+
+
+		<!-- Contact section -->
+		<div class="container mt-64 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
+			<section class="w-full">
+
+				<div class="w-full grid md:grid-cols-2 gap-8 lg:gap-32 mt-24">
+				<!-- Contact info -->
+				<div class="flex flex-col space-y-6">
+				<div class="inline-flex space-y-12 items-center">
+				<h2 id="contact" class="secondary-title block text-xl">Contact me</h2>
+				<p class="section-paragraph">Feel free to to contact me any time, through any method below.</p>
+				<div class="flex gap-6">
+				<ion-icon name="call" class="w-8 h-8 md:w-5 md:h-5"></ion-icon>
+				<a href="tel:082-322-7737" class="text-secondary">082-322-7737</a>
+				</div>
+				<div class="flex gap-6">
+				<ion-icon name="mail" class="w-8 h-8 md:w-5 md:h-5"></ion-icon>
+				<a href="mailto:email@mydomain.com" class="text-secondary underline">email@mydomain.com</a>
+				</div>
+				<div class="flex gap-6">
+				<ion-icon name="pin" class="w-8 h-8 md:w-5 md:h-5 gap-6"></ion-icon>
+				<p class="text-secondary">2491 Vundla Driver, Moroka, Soweto</p>
+				</div>
+					
+				<div class="mt-0">
+												
+					<!-- LinkedIn -->
+												
+					<a href="https://www.linkedin.com/in/ofentse-rampa-741370224/" target="_blank">
+					<ion-icon name="logo-linkedin" class="w-8 h-8 lg:w-12 lg:h-12"></ion-icon></a>
+
+					<!-- GitHub -->
+					<a href="https://www.linkedin.com/in/ofentse-rampa-741370224/" target="_blank">
+					<ion-icon name="logo-github" class="w-8 h-8 lg:w-12 lg:h-12"></ion-icon></a>
+					</div>
+					</div>
+					</div>
+
+					<!-- Contact me -->
+					<div class="mt-0 bg-">
+						<div class="space-y-1">
+							<div>
+								<label class="text-white block mb-6 text-xl font-bold">Name</label>
+								<input class="w-full bg-gray-900 border border-input-border bg-input rounded-md px-4 py-4" name="username" required>
+							</div>
+							<div>
+								<label class="text-white block mb-6 text-xl font-bold">Email</label>
+								<input type="email" class="w-full border border-input-border bg-input rounded-md px-4 py-4" name="email" required>
+							</div>
+							<div>
+								<label class="text-white block mb-6 text-xl font-bold">Message</label>
+								<textarea type="email" class="w-full border border-input-border bg-input px-4 rounded-md py-4 h-36 resize-none" required></textarea>
+							</div>
+							<div class="mt-3">
+							<a href="#"><button class="px-6 py-2 bg-theme text-white font-bold rounded-md">Send it!</button></a>
+							</div>
+						</div>
+	
+					</div>
+					
+				</div>
+
+			</section>
+		</div>
+
+        <script src="main.js"></script>
+		<script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+
+</body>
+</html>
+
+						<!-- <ion-icon class="selected-circle block w-7 h-7 border-4 border-nav bg-body" name="home" class="w-8 h-8 lg:w-12 lg:h-12" width="42" height="42" viewBox="0 0 42 42" fill="purple"></ion-icon> navigation icons-->
