@@ -68,3 +68,12 @@ scroll-margin-top: 100px;
 .nav-dot:hover span {
     opacity: 1;
 }
+
+.mobile-menu {
+    transform: translateX(100%);
+    transition: transform 0.3s ease-in-out;
+}
+
+.mobile-menu.show {
+    transform: translateX(0);
+}
