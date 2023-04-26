@@ -7,7 +7,7 @@ $message = $_POST['message'];
 
 $mailhearder = "From:".$name."<".$email.">\r\n";
 
-$recipient = "email@mydomain.com";
+$recipient = "rampage@ofentserampa.co.za";
 
 mail($recipient, $message, $mailhearder)
 or die("Error!");
