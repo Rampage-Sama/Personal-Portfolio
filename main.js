@@ -27,7 +27,7 @@ burger.addEventListener('click', () => {
 
 //Type Writer effect
 var typed = new Typed( ".auto-input", {
-	strings: ["am Ofentse Rampa", "am a Front End Developer", "am a Software Developer", "construct beautiful responsive, web experiences"],
+	strings: ["am Ofentse Rampa", "am a Front End Web Developer", "am a Software Developer", "construct beautiful responsive, web experiences"],
 	typeSpeed: 100,
 	backSpeed: 100,
 	loop: true
