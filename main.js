@@ -1,3 +1,4 @@
+//Smooth scroll
 function updateList() {
 	const titles = [...document.querySelectorAll('h1, h2')].sort((a, b) => {
 		return Math.abs(a.getBoundingClientRect().top) - Math.abs(b.getBoundingClientRect().top);
